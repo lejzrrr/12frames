@@ -193,18 +193,18 @@ entries.forEach(([time, name, mission, date, approximate], index) => {
   }
   const video = article.querySelector('video');
   const clips = [
-    {src: 'videos/01_armstrong.mp4', contact: 4},
-    {src: 'videos/02_aldrin.mp4', contact: 4},
-    {src: 'videos/03_conrad.mp4', contact: 4},
-    {src: 'videos/04_bean.mp4', contact: 4},
-    {src: 'videos/05_shepard.mp4', contact: 4},
-    {src: 'videos/06_mitchell.mp4', contact: 4},
-    {src: 'videos/07_scott.mp4', contact: 4},
-    {src: 'videos/08_irwin.mp4', contact: 4},
-    {src: 'videos/09_young.mp4', contact: 4, laterMoment: true},
-    {src: 'videos/10_duke.mp4', contact: 4, laterMoment: true},
-    {src: 'videos/11_cernan.mp4', contact: 4, laterMoment: true},
-    {src: 'videos/12_schmitt.mp4', contact: 4, laterMoment: true},
+    {src: '01_armstrong.mp4', contact: 4},
+    {src: '02_aldrin.mp4', contact: 4},
+    {src: '03_conrad.mp4', contact: 4},
+    {src: '04_bean.mp4', contact: 4},
+    {src: '05_shepard.mp4', contact: 4},
+    {src: '06_mitchell.mp4', contact: 4},
+    {src: '07_scott.mp4', contact: 4},
+    {src: '08_irwin.mp4', contact: 4},
+    {src: '09_young.mp4', contact: 4, laterMoment: true},
+    {src: '10_duke.mp4', contact: 4, laterMoment: true},
+    {src: '11_cernan.mp4', contact: 4, laterMoment: true},
+    {src: '12_schmitt.mp4', contact: 4, laterMoment: true},
   ];
   const clip = clips[index] || null;
   if (clip) video.src = clip.src;
